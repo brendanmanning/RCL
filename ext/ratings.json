@@ -17,8 +17,6 @@
     "description": "Associated Press provides much of the firsthand news reporting major networks rely on when they add their \"spin.\" AP is more fact, less opinion.",
     "readmore": "https://www.allsides.com/news-source/ap"
   },
-  
-  
   "cnn.com": {
     "name": "CNN",
     "rating": "Lean Left",
@@ -55,7 +53,6 @@
      "description": "AllSides found that <em>Slate</em> never includes a Right-leaning perspective on its website[.] Opinion pieces on <em>Slate</em> are clearly labeled news, making it unclear [] what is fact and what is opinion. In its new reporting, <em>Slate</em> often uses subjective and emotional words. (Directly quoted from AllSides; Please click the 'L' icon for more information)",
      "readmore": "https://www.allsides.com/news-source/slate"
   },
-    
   "foxnews.com": {
     "name": "FOX News",
     "rating": "Lean Right",

@@ -17,12 +17,45 @@
     "description": "Associated Press provides much of the firsthand news reporting major networks rely on when they add their \"spin.\" AP is more fact, less opinion.",
     "readmore": "https://www.allsides.com/news-source/ap"
   },
+  
+  
   "cnn.com": {
     "name": "CNN",
     "rating": "Lean Left",
     "description": "Though its cable TV partner is historically moderate, CNN Web News has been classified as lean left in recent years. Please see attatched link for more details. <br><font size='1px'>(This is the rating of an independent party, not the opinion of the developer)</font>",
     "readmore": "https://www.allsides.com/news-source/cnn"
   },
+  "nbcnews.com": {
+    "name": "NBC News",
+    "rating": "Lean Left"
+    "description": "Please see <a href='https://www.allsides.com/news-source/nbc-news-media-bias'>AllSides</a> for details",
+    "readmore": "https://www.allsides.com/news-source/nbc-news-media-bias"
+  },
+  "washingtonpost": {
+     "name": "Washington Post",
+     "rating": "Lean Left",
+     "description": "Washington Post has been accused of bias towards both sides, but has been found somewhat left-leaning by AllSides.<br><strong>For articles involving Amazon</strong>: Jeff Bezos, CEO of Amazon <a href='https://en.wikipedia.org/wiki/Jeff_Bezos#The_Washington_Post'>bought the paper for $250 million</a> through his LLC Hash Holdings" 
+     "readmore": "https://www.allsides.com/news-source/washington-post-media-bias"
+  },
+  "msnbc.com": {
+    "name": "MSBNC",
+    "rating": "Solid Left",
+    "description": "In 2013, <em>MSNBC</em> released its revamped official website under the tagline, 'What Progressives Have Been Waiting For' (Source: Washington Times via AllSides)"
+    "readmore": "https://www.allsides.com/news-source/msnbc"
+  },
+  "huffpost.com": {
+     "name": "Huffington Post",
+     "rating": "Solid Left",
+     "description": "According to AllSides, HuffPost, like MSNBC, self-identifies as overtly liberal. Not a good thing. Not a bad thing. Just the truth.",
+     "readmore": "https://www.allsides.com/news-source/huffpost-media-bias"
+  },
+  "slate.com": {
+     "name": "Slate",
+     "rating": "Solid Left",
+     "description": "AllSides found that <em>Slate</em> never includes a Right-leaning perspective on its website[.] Opinion pieces on <em>Slate</em> are clearly labeled news, making it unclear [] what is fact and what is opinion. In its new reporting, <em>Slate</em> often uses subjective and emotional words. (Directly quoted from AllSides; Please click the 'L' icon for more information)",
+     "readmore": "https://www.allsides.com/news-source/slate"
+  },
+    
   "foxnews.com": {
     "name": "FOX News",
     "rating": "Lean Right",

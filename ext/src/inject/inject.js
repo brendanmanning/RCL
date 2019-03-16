@@ -1,6 +1,7 @@
 chrome.extension.sendMessage({}, function(response) {
 	var readyStateCheckInterval = setInterval(function() {
-	if (document.readyState === "complete") {
+	
+		if (document.readyState === "complete") {
 		clearInterval(readyStateCheckInterval);
 
 		// ----------------------------------------------------------
@@ -10,25 +11,14 @@ chrome.extension.sendMessage({}, function(response) {
 
 		// ----------------------------------------------------------
 
-		//document..innerHTML += '<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/js/uikit.js"/>';
-		//document.head.innerHTML += '<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/css/uikit-core.min.css"/>';
-
-		//setTimeout(1000, function() {
-
-			downloadData(function(d) {
-				data = d;
-				tooltip();
-			})
-//		})
+		downloadData(function(d) {
+			data = d;
+			tooltip();
+		})
 
 	}
 	}, 10);
 });
-
-var OPACITY = 0.25;
-var RIGHT_COLOR = 'rgb(239,55,66,' + OPACITY + ')'
-var CENTER_COLOR = 'rgb(139,5,230,' + OPACITY + ')'
-var LEFT_COLOR = 'rgb(44,103,187,' + OPACITY + ')'
 
 var RIGHT_IMAGE = 'https://i.ibb.co/6NfMn0Z/Right.png';
 var CENTER_IMAGE = 'https://i.ibb.co/9c3JY4W/Center.png';
@@ -36,100 +26,11 @@ var LEFT_IMAGE = 'https://i.ibb.co/dth9X3w/Left.png';
 
 var data = {};
 
-/*function highlight() {
-	
-	var results = [];
-
-	var normalsearchresults = document.getElementsByClassName('r');
-	var subsearchresults = document.getElementsByClassName('card-section');
-	var topcardsearchresults = document.getElementsByTagName('g-inner-card');
-
-	for(var n of normalsearchresults) {
-		results.push(n);
-	}
-
-	for(var s of subsearchresults) {
-		results.push(s);
-	}
-
-	for(var t of topcardsearchresults) {
-		results.push(t);
-	}
-
-	for(sr of results) {
-		var as = sr.getElementsByTagName('a'); 
-		for(var a of as) {
-			try {
-			
-				var regex = /:\/\/(.[^/]+)/;
-				var site = a.href.match(regex)[1];
-
-				// Exluce the "View All" suggestion which implicitly links back to news.google.com
-				if(a.innerHTML.toLowerCase() == "View All".toLowerCase()) {
-					continue;
-				}
-				
-				if(isLiberal(site)) {
-					try {
-						if(sr.tagName == 'g-inner-card') {
-							sr.innerHTML += '<img height="30" width="30" src="https://i.ibb.co/dth9X3w/Left.png" style="z-index: 100; position: absolute; left: 15px; top: 15px">'
-						} else {
-							sr.parentElement.innerHTML = '<img height="30" width="30" src="' + LEFT_IMAGE + '" style="position: absolute; left: -45px; top: calc(50% - 15px)">' + sr.parentElement.innerHTML;
-
-						}
-					} catch (err) {}
-						//sr.parentElement.setAttribute('data-uk-tooltip', '');
-						//sr.parentElement.setAttribute('title', 'hello');
-					//}
-				}
-
-				if(isConservative(site)) {
-					try {
-						sr.parentElement.innerHTML = '<img height="30" width="30" src="' + RIGHT_IMAGE + '" style="position: absolute; left: -45px; top: calc(50% - 15px)">' + sr.parentElement.innerHTML;
-					} catch (err) {
-					}
-				}
-
-				if(isCenter(site)) {
-					try {
-						sr.parentElement.innerHTML = '<img height="30" width="30" src="' + CENTER_IMAGE + '" style="position: absolute; left: -45px; top: calc(50% - 15px)">' + sr.parentElement.innerHTML;
-					} catch (err) {
-					}
-				}
-
-			} catch (err) {
-				console.error("Error on " + a.href);
-			}
-
-		}
-	}
-}*/
-
 function tooltip() {
-
-	var arr = [];
-
-	//var slps = document.getElementsByClassName('slp');
-	//var nsas = document.getElementsByClassName('nsa');
 
 	var links = document.getElementsByTagName('a');
 
-	//for(var o of slps) {
-	//	arr.push(o);
-	//}
-
-	//for(var o of nsas) {
-		//arr.push(o);
-	//}
-
 	for(var link of links) {
-		//var anchors = slp.parentElement.getElementsByTagName('a');
-		
-		// Ignore weird cases where there are multiple links
-		//if(anchors.length == 0) {
-		//	console.error("There were " + anchors.length + " <a> tags when there should have been 1");
-		//	continue;
-		//}
 
 		// Exluce the "View All" suggestion which implicitly links back to news.google.com
 		if(link.innerHTML.toLowerCase() == "View all".toLowerCase()) {
@@ -179,8 +80,6 @@ function tooltip() {
 		flag += "</a>";
 		link.innerHTML = flag + link.innerHTML;
 
-		console.log(link);
-
 	}
 }
 
@@ -193,7 +92,7 @@ var Bias = {
 }
 
 function downloadData(callback) {
-	fetch('https://raw.githubusercontent.com/brendanmanning/transparent/master/data.json')
+	fetch('https://raw.githubusercontent.com/brendanmanning/RCL/master/ext/ratings.json')
   	.then(function(response) {
 		return response.json();
   	})
@@ -216,6 +115,7 @@ function insights(site) {
 
 }
 
+/*
 function isCenter(newssite) {
 	var moderate = [
 		'reuters.com',
@@ -275,7 +175,7 @@ function isLiberal(newssite) {
 
 	return false;
 
-}
+}*/
 
 function isConservative(newssite) {
 	var conservative = [

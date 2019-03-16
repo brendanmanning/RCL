@@ -18,9 +18,8 @@
   /* Position the tooltip text - see examples below! */
   position: absolute;
   z-index: 1;
-  bottom: 100%;
-  left: 50%; 
-  margin-left: -60px;
+  top: -5px;
+  left: 105%; 
 }
 
 /* Show the tooltip text when you mouse over the tooltip container */

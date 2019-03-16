@@ -1,0 +1,32 @@
+{
+  "reuters.com": {
+    "name": "Reuters",
+    "rating": "Center",
+    "description": "Reuters provides much of the firsthand news reporting major networks rely on when they add their \"spin\" Reuters is more fact, less opinion.",
+    "readmore": "https://www.allsides.com/news-source/reuters"
+  },
+  "uk.reuters.com": {
+    "name": "Reuters (UK)",
+    "rating": "Center",
+    "description": "UK branch of Reuters. Reuters provides much of the firsthand news reporting major networks rely on when they add their \"spin\" Reuters is more fact, less opinion.",
+    "readmore": "https://www.allsides.com/news-source/reuters"
+  },
+  "ap.org": {
+    "name": "Associated Press",
+    "rating": "Center",
+    "description": "Associated Press provides much of the firsthand news reporting major networks rely on when they add their \"spin.\" AP is more fact, less opinion.",
+    "readmore": "https://www.allsides.com/news-source/ap"
+  },
+  "cnn.com": {
+    "name": "CNN",
+    "rating": "Lean Left",
+    "description": "Though its cable TV partner is historically moderate, CNN Web News has been classified as lean left in recent years. Please see attatched link for more details. <br><font size='1px'>(This is the rating of an independent party, not the opinion of the developer)</font>",
+    "readmore": "https://www.allsides.com/news-source/cnn"
+  },
+  "foxnews.com": {
+    "name": "FOX News",
+    "rating": "Lean Right",
+    "description": "The news network favored by the majority of conservatives",
+    "readmore": "https://www.allsides.com/news-source/fox-news"
+  }
+}

@@ -20,7 +20,7 @@
   "cnn.com": {
     "name": "CNN",
     "rating": "Lean Left",
-    "description": "Though its cable TV partner is historically moderate, CNN Web News has been classified as lean left in recent years. Please see attatched link for more details. <br><font size='1px'>(This is the rating of an independent party, not the opinion of the developer)</font>",
+    "description": "Though its cable TV partner is historically moderate, CNN Web News has been classified as lean left in recent years. Please see attatched link for more details. <br/><font size='1px'>(This is the rating of an independent party, not the opinion of the developer)</font>",
     "readmore": "https://www.allsides.com/news-source/cnn"
   },
   "nbcnews.com": {
@@ -32,7 +32,7 @@
   "washingtonpost": {
      "name": "Washington Post",
      "rating": "Lean Left",
-     "description": "Washington Post has been accused of bias towards both sides, but has been found somewhat left-leaning by AllSides.<br><strong>For articles involving Amazon</strong>: Jeff Bezos, CEO of Amazon <a href='https://en.wikipedia.org/wiki/Jeff_Bezos#The_Washington_Post'>bought the paper for $250 million</a> through his LLC Hash Holdings", 
+     "description": "Washington Post has been accused of bias towards both sides, but has been found somewhat left-leaning by AllSides.<br/><strong>For articles involving Amazon</strong>: Jeff Bezos, CEO of Amazon <a href='https://en.wikipedia.org/wiki/Jeff_Bezos#The_Washington_Post'>bought the paper for $250 million</a> through his LLC Hash Holdings", 
      "readmore": "https://www.allsides.com/news-source/washington-post-media-bias"
   },
   "msnbc.com": {
@@ -50,7 +50,7 @@
   "slate.com": {
      "name": "Slate",
      "rating": "Solid Left",
-     "description": "AllSides found that <em>Slate</em> never includes a Right-leaning perspective on its website[.] Opinion pieces on <em>Slate</em> are clearly labeled news, making it unclear [] what is fact and what is opinion. In its new reporting, <em>Slate</em> often uses subjective and emotional words. (Directly quoted from AllSides; Please click the 'L' icon for more information)",
+     "description": "AllSides found that <em>Slate</em> never includes a Right-leaning perspective on its website[.] Opinion pieces on <em>Slate</em> are clearly labeled news, making it unclear [] what is fact and what is opinion. In its new reporting, <em>Slate</em> often uses subjective and emotional words.<br>(Directly quoted from AllSides; Please click the 'L' icon for more information)",
      "readmore": "https://www.allsides.com/news-source/slate"
   },
   "foxnews.com": {

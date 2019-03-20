@@ -11,6 +11,18 @@ chrome.extension.sendMessage({}, function(response) {
 
 		// ----------------------------------------------------------
 
+		window.popup = function(name, rating, description, readmore) {
+			var myWindow = window.popup("", name, "width=200,height=100");
+			myWindow.document.write("<center>");  
+			myWindow.document.write("<h2>" + name + " | " + rating);
+			myWindow.document.write("<p>" + description + "</p>");
+			myWindow.document.write("</center>");  
+			myWindow.document.write("<a href='" + readmore + "' style='position: absolute; right: 0px;'>Read More</a>");
+		
+		}
+
+			//document.head.innerHTML = '<script>window.popup = function(name, rating, description, readmore) {  \nvar myWindow = window.popup("", name, "width=200,height=100");myWindow.document.write("<center>");   myWindow.document.write("<h2>" + name + " | " + rating);   myWindow.document.write("<p>" + description + "</p>");   myWindow.document.write("</center>");  myWindow.document.write("<a href=\'" + readmore + "\' style=\'position: absolute; right: 0px;\'>Read More</a>");  \n}</script>' + document.head.innerHTML;
+
 		downloadData(function(d) {
 			data = d;
 			tooltip();
@@ -74,14 +86,33 @@ function tooltip() {
 
 		// Put a little R/C/L flag/tooltip
 		var flag = '';
-		flag += '<a class="tooltip" href="' + info.readmore + '">'
+		//flag += '<a class="tooltip" href="javascript:popup(\'' + info.name + '\',\'' + info.rating + '\',\'' + info.description + '\',\'' + info.readmore + '\');">';
+		flag += '<a class="tooltip">';
 		flag += '<img src="' + icon + '" height="14" width="14" style="display: inline; position: relative; top: 2px;">'
 		flag+= '<div class="tooltiptext"><strong>' + info.name + "</strong>  " + info.rating + '<hr>' +  ((info.description != undefined) ? info.description : "Click the bubble to find out why we rated it this way")+ '</div>';
 		flag += "</a>";
-		link.innerHTML = flag + link.innerHTML;
+		link.innerHTML = '<div>' + flag + link.innerHTML + "</div>";
 
 	}
+
+	var h1s = document.getElementsByTagName('h1');
+	var h2s = document.getElementsByTagName('h2');
+	var h3s = document.getElementsByTagName('h3');
+
+	for(var h of h1s) {
+		h.style.overflow = 'visible';
+	}
+
+	for(var h of h2s) {
+		h.style.overflow = 'visible';
+	}
+
+	for(var h of h3s) {
+		h.style.overflow = 'visible';
+	}
+
 }
+
 
 var Bias = {
 	solidleft: "Solid Left",

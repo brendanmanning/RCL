@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "manifest_version": 2,
   "description": "Building a more informed electorate through media bias awareness. Name stands for Right, Center, Left",
-  "homepage_url": "http://extensionizr.com",
+  "homepage_url": "http://rcl.brendanmanning.com",
   "icons": {
     "16": "icons/Logo16.png",
     "48": "icons/Logo48.png",
@@ -18,50 +18,21 @@
   },
   "options_page": "src/options/index.html",
   "permissions": [
-    "notifications",
-    "*://*/*"
+        "http://www.google.com/*",
+        "https://www.google.com/*",
+        "http://www.google.com/*",
+        "https://www.google.com/*"
   ],
   "content_scripts": [
     {
       "matches": [
+        
         "http://www.google.com/*",
         "https://www.google.com/*",
         "http://www.google.com/*",
-        "https://www.google.com/*",
-
-        "http://yahoo.com/*",
-        "https://yahoo.com/*",
-        "http://www.yahoo.com/*",
-        "https://www.yahoo.com/*",
-
-        "http://bing.com/*",
-        "https://bing.com/*",
-        "http://www.bing.com/*",
-        "https://www.bing.com/*",
-
-        "http://facebook.com/*",
-        "https://facebook.com/*",
-        "http://www.facebook.com/*",
-        "https://www.facebook.com/*",
-
-        "http://twitter.com/*",
-        "https://twitter.com/*",
-        "http://www.twitter.com/*",
-        "https://www.twitter.com/*",
-
-        "http://wikipedia.org/*",
-        "https://wikipedia.org/*",
-        "http://www.wikipedia.org/*",
-        "https://www.wikipedia.org/*",
-
-        "http://reddit.com/*",
-        "https://reddit.com/*",
-        "http://www.reddit.com/*",
-        "https://www.reddit.com/*"
-
+        "https://www.google.com/*"
       ],
       "js": [
-        "src/inject/asyncawait.js",
         "src/inject/inject.js"
       ],
       "css" : [

@@ -17,6 +17,12 @@
     "description": "Associated Press provides much of the firsthand news reporting major networks rely on when they add their \"spin.\" AP is more fact, less opinion.",
     "readmore": "https://www.allsides.com/news-source/ap"
   },
+  "apnews.com": {
+    "name": "Associated Press",
+    "rating": "Center",
+    "description": "Associated Press provides much of the firsthand news reporting major networks rely on when they add their \"spin.\" AP is more fact, less opinion.",
+    "readmore": "https://www.allsides.com/news-source/ap"
+  },
   "wsj.com": {
     "name": "Wall Street Journal",
     "rating": "Center",

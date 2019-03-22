@@ -104,6 +104,7 @@
   "cbn.com":{
     "name": "CBN (Christian Broadcasting Network)",
     "rating": "Solid Right",
-    "description": "Founded by televangilist Pat Robertson, CBN presents news through a conservative, Christian lens. 
+    "description": "Founded by televangilist Pat Robertson, CBN presents news through a conservative, Christian lens.",
+    "readmore": "https://www.allsides.com/news-source/cbn"
   }
 }

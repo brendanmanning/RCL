@@ -65,6 +65,12 @@
      "description": "AllSides found that <em>Slate</em> never includes a Right-leaning perspective on its website[.] Opinion pieces on <em>Slate</em> are clearly labeled news, making it unclear [] what is fact and what is opinion. In its new reporting, <em>Slate</em> often uses subjective and emotional words.<br>(Directly quoted from AllSides; Please click the 'L' icon for more information)",
      "readmore": "https://www.allsides.com/news-source/slate"
   },
+  "vox.com": {
+     "name": "Vox",
+    "rating": "Solid Left",
+    "description": "Consistently writes in favor of left-wing policies and was found to never include a right-wing perspective. AllSides asserts that Vox's reporting fails to give the reader a wholistic view of the issues at hand.",
+    "readmore": "https://www.allsides.com/news-source/vox-news-media-bias"
+  },
   "foxnews.com": {
     "name": "FOX News",
     "rating": "Lean Right",
@@ -94,5 +100,10 @@
     "rating": "Solid Right",
     "description": "British daily tabloid, whose main content is not political, but nevertheless tends to support Conservatives (Republicans in the US, Tories in the UK).",
     "readmore": "https://www.allsides.com/news-source/daily-mail"
+  },
+  "cbn.com":{
+    "name": "CBN (Christian Broadcasting Network)",
+    "rating": "Solid Right",
+    "description": "Founded by televangilist Pat Robertson, CBN presents news through a conservative, Christian lens. 
   }
 }

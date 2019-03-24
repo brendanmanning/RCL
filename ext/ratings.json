@@ -1,92 +1,116 @@
 {
-  "reuters.com": {
-    "name": "Reuters",
-    "rating": "Center",
-    "description": "Reuters provides much of the firsthand news reporting major networks rely on when they add their \"spin\" Reuters is more fact, less opinion.",
-    "readmore": "https://www.allsides.com/news-source/reuters"
-  },
-  "uk.reuters.com": {
-    "name": "Reuters (UK)",
-    "rating": "Center",
-    "description": "UK branch of Reuters. Reuters provides much of the firsthand news reporting major networks rely on when they add their \"spin\" Reuters is more fact, less opinion.",
-    "readmore": "https://www.allsides.com/news-source/reuters"
-  },
-  "ap.org": {
-    "name": "Associated Press",
-    "rating": "Center",
-    "description": "Associated Press provides much of the firsthand news reporting major networks rely on when they add their \"spin.\" AP is more fact, less opinion.",
-    "readmore": "https://www.allsides.com/news-source/ap"
-  },
-  "wsj.com": {
-    "name": "Wall Street Journal",
-    "rating": "Center",
-    "description": "While its opinion page and editorial trend Right, the general news source is Centrist. Please click on the 'C' badge for more information from AllSides.",
-    "readmore": "https://www.allsides.com/news-source/wall-street-journal-media-bias"
-  },
-  "cnn.com": {
-    "name": "CNN",
-    "rating": "Lean Left",
-    "description": "Though its cable TV partner is historically moderate, CNN Web News has been classified as lean left in recent years. Please see attatched link for more details. <br/><font size='1px'>(This is the rating of an independent party, not the opinion of the developer)</font>",
-    "readmore": "https://www.allsides.com/news-source/cnn"
-  },
-  "nbcnews.com": {
-    "name": "NBC News",
-    "rating": "Lean Left",
-    "description": "No commentary available yet",
-    "readmore": "https://www.allsides.com/news-source/nbc-news-media-bias"
-  },
-  "washingtonpost": {
-     "name": "Washington Post",
-     "rating": "Lean Left",
-     "description": "Washington Post has been accused of bias towards both sides, but has been found somewhat left-leaning by AllSides.<br/><strong>For articles involving Amazon</strong>: Jeff Bezos, CEO of Amazon <a href='https://en.wikipedia.org/wiki/Jeff_Bezos#The_Washington_Post'>bought the paper for $250 million</a> through his LLC Hash Holdings", 
-     "readmore": "https://www.allsides.com/news-source/washington-post-media-bias"
-  },
-  "msnbc.com": {
-    "name": "MSBNC",
-    "rating": "Solid Left",
-    "description": "In 2013, <em>MSNBC</em> released its revamped official website under the tagline, 'What Progressives Have Been Waiting For' (Source: Washington Times via AllSides)",
-    "readmore": "https://www.allsides.com/news-source/msnbc"
-  },
-  "huffpost.com": {
-     "name": "Huffington Post",
-     "rating": "Solid Left",
-     "description": "According to AllSides, HuffPost, like MSNBC, self-identifies as overtly liberal.",
-     "readmore": "https://www.allsides.com/news-source/huffpost-media-bias"
-  },
-  "slate.com": {
-     "name": "Slate",
-     "rating": "Solid Left",
-     "description": "AllSides found that <em>Slate</em> never includes a Right-leaning perspective on its website[.] Opinion pieces on <em>Slate</em> are clearly labeled news, making it unclear [] what is fact and what is opinion. In its new reporting, <em>Slate</em> often uses subjective and emotional words.<br>(Directly quoted from AllSides; Please click the 'L' icon for more information)",
-     "readmore": "https://www.allsides.com/news-source/slate"
-  },
-  "foxnews.com": {
-    "name": "FOX News",
-    "rating": "Lean Right",
-    "description": "The news network favored by the plurality of conservatives",
-    "readmore": "https://www.allsides.com/news-source/fox-news"
-  },
-  "reason.com": {
-    "name": "Reason",
-    "rating": "Lean Right",
-    "description": "Covers the libertarian perspective (socially liberal, fiscally conservative). AllSides writes favorably about Reason's refreshing coverage in contrast to typical left or right leaning news",
-    "readmore": "https://www.allsides.com/news-source/reason"
-  },
-  "drudgereport.com": {
-    "name": "Drudge Report",
-    "rating": "Lean Right",
-    "description": "Drudge Report mostly aggregates news from other outlets. It has come under fire in the past for sensationalist headlines (ex: Barack Obama \"Birther\" Narrative) but was also the first to publish the Monica Lewinsky scandal. Its audience is overwhelmingly conservative, but several studies, including a 2005 UCLA study, have noted its inclusion of Leftist views.",
-    "readmore": "https://www.allsides.com/news-source/drudge-report"
-  },
-  "breitbart.com": {
-    "name": "Breitbart",
-    "rating": "Solid Right",
-    "description": "Initially a news aggregation site, it has evolved to include a network of its own content, including BigHollywood.com, BigGovernment.com, and more. Former White House Chief Strategist Bannon was formerly Breitbart's Executive Chairman. But, despite common knowledge, he did not found the network (conservative entrepreneur Andrew Breitbart did in 2007).",
-    "readmore": "https://www.allsides.com/news-source/breitbart"
-  },
-  "dailymail.co.uk": {
-    "name": "Daily Mail",
-    "rating": "Solid Right",
-    "description": "British daily tabloid, whose main content is not political, but nevertheless tends to support Conservatives (Republicans in the US, Tories in the UK).",
-    "readmore": "https://www.allsides.com/news-source/daily-mail"
-  }
+    "ap.org": {
+        "description": "Associated Press provides much of the firsthand news reporting major networks rely on when they add their \"spin.\" AP is more fact, less opinion.",
+        "name": "Associated Press",
+        "rating": "Center",
+        "readmore": "https://www.allsides.com/news-source/ap"
+    },
+    "bloomberg.org": {
+        "bias": "Center",
+        "description": "The news outlet of Bloomberg L.P, which makes financial software for Wall Street. Primarily focusing on business topics, Bloomberg has defined itself as the Chronicle of Capitalism. Some considerit a Lean Right source, but most objective surveys (AllSides included) have affirmed it to be centrist.",
+        "name": "Bloomberg",
+        "readmore": "https://www.allsides.com/news-source/Bloomberg-media-bias"
+    },
+    "breitbart.com": {
+        "description": "Initially a news aggregation site, it has evolved to include a network of its own content, including BigHollywood.com, BigGovernment.com, and more. Former White House Chief Strategist Bannon was formerly Breitbart's Executive Chairman. But, despite common knowledge, he did not found the network (conservative entrepreneur Andrew Breitbart did in 2007).",
+        "name": "Breitbart",
+        "rating": "Solid Right",
+        "readmore": "https://www.allsides.com/news-source/breitbart"
+    },
+    "cnn.com": {
+        "description": "Though its cable TV partner is historically moderate, CNN Web News has been classified as lean left in recent years. Please see attatched link for more details. <br/><font size='1px'>(This is the rating of an independent party, not the opinion of the developer)</font>",
+        "name": "CNN",
+        "rating": "Lean Left",
+        "readmore": "https://www.allsides.com/news-source/cnn"
+    },
+    "csmonitor.com": {
+        "bias": "Center",
+        "description": " The AllSides community overwhelmingly rated CSM to be a center source. According to its about page, it looks to injure no man, but bless all manking. Despite the word Christian being in the title, this source is well-regarded for its ability to cover multiple angles of every story.",
+        "name": "Christian Science Monitor",
+        "readmore": "https://www.allsides.com/news-source/christian-science-monitor"
+    },
+    "dailymail.co.uk": {
+        "description": "British daily tabloid, whose main content is not political, but nevertheless tends to support Conservatives (Republicans in the US, Tories in the UK).",
+        "name": "Daily Mail",
+        "rating": "Solid Right",
+        "readmore": "https://www.allsides.com/news-source/daily-mail"
+    },
+    "drudgereport.com": {
+        "description": "Drudge Report mostly aggregates news from other outlets. It has come under fire in the past for sensationalist headlines (ex: Barack Obama \"Birther\" Narrative) but was also the first to publish the Monica Lewinsky scandal. Its audience is overwhelmingly conservative, but several studies, including a 2005 UCLA study, have noted its inclusion of Leftist views.",
+        "name": "Drudge Report",
+        "rating": "Lean Right",
+        "readmore": "https://www.allsides.com/news-source/drudge-report"
+    },
+    "foxnews.com": {
+        "description": "The news network favored by the plurality of conservatives",
+        "name": "FOX News",
+        "rating": "Lean Right",
+        "readmore": "https://www.allsides.com/news-source/fox-news"
+    },
+    "huffpost.com": {
+        "description": "According to AllSides, HuffPost, like MSNBC, self-identifies as overtly liberal.",
+        "name": "Huffington Post",
+        "rating": "Solid Left",
+        "readmore": "https://www.allsides.com/news-source/huffpost-media-bias"
+    },
+    "msnbc.com": {
+        "description": "In 2013, <em>MSNBC</em> released its revamped official website under the tagline, 'What Progressives Have Been Waiting For' (Source: Washington Times via AllSides)",
+        "name": "MSBNC",
+        "rating": "Solid Left",
+        "readmore": "https://www.allsides.com/news-source/msnbc"
+    },
+    "nbcnews.com": {
+        "description": "No commentary available yet",
+        "name": "NBC News",
+        "rating": "Lean Left",
+        "readmore": "https://www.allsides.com/news-source/nbc-news-media-bias"
+    },
+    "npr.org": {
+        "bias": "Center",
+        "description": "Avoids hot-button issues (gun rights, abortion, etc) in favor of news that is important to both 'sides (immigration, healthcare, etc). It avoids emotionally-charged and polarizing language and ensures that its Editorial/Opinion content (which Leans Left) is not easily-confused with its objective news coverage.",
+        "name": "NPR",
+        "readmore": "https://www.allsides.com/news-source/NPR-media-bias"
+    },
+    "reason.com": {
+        "description": "Covers the libertarian perspective (socially liberal, fiscally conservative). AllSides writes favorably about Reason's refreshing coverage in contrast to typical left or right leaning news",
+        "name": "Reason",
+        "rating": "Lean Right",
+        "readmore": "https://www.allsides.com/news-source/reason"
+    },
+    "reuters.com": {
+        "description": "Reuters provides much of the firsthand news reporting major networks rely on when they add their \"spin\" Reuters is more fact, less opinion.",
+        "name": "Reuters",
+        "rating": "Center",
+        "readmore": "https://www.allsides.com/news-source/reuters"
+    },
+    "slate.com": {
+        "description": "AllSides found that <em>Slate</em> never includes a Right-leaning perspective on its website[.] Opinion pieces on <em>Slate</em> are clearly labeled news, making it unclear [] what is fact and what is opinion. In its new reporting, <em>Slate</em> often uses subjective and emotional words.<br>(Directly quoted from AllSides; Please click the 'L' icon for more information)",
+        "name": "Slate",
+        "rating": "Solid Left",
+        "readmore": "https://www.allsides.com/news-source/slate"
+    },
+    "uk.reuters.com": {
+        "description": "UK branch of Reuters. Reuters provides much of the firsthand news reporting major networks rely on when they add their \"spin\" Reuters is more fact, less opinion.",
+        "name": "Reuters (UK)",
+        "rating": "Center",
+        "readmore": "https://www.allsides.com/news-source/reuters"
+    },
+    "usatoday.com": {
+        "bias": "Center",
+        "description": "A 2013 Blind Bias Survey (the best rating method available) rated USA Today as Center. Past critics have accused USA Today of a Lean Left bias, particularly in its editorial pieces, but AllSides has consistently rated the organizaton as having a Center bias.",
+        "name": "USA Today",
+        "readmore": "https://www.https://www.allsides.com/news-source/usa-today-media-bias"
+    },
+    "washingtonpost": {
+        "description": "Washington Post has been accused of bias towards both sides, but has been found somewhat left-leaning by AllSides.<br/><strong>For articles involving Amazon</strong>: Jeff Bezos, CEO of Amazon <a href='https://en.wikipedia.org/wiki/Jeff_Bezos#The_Washington_Post'>bought the paper for $250 million</a> through his LLC Hash Holdings",
+        "name": "Washington Post",
+        "rating": "Lean Left",
+        "readmore": "https://www.allsides.com/news-source/washington-post-media-bias"
+    },
+    "wsj.com": {
+        "description": "While its opinion page and editorial trend Right, the general news source is Centrist. Please click on the 'C' badge for more information from AllSides.",
+        "name": "Wall Street Journal",
+        "rating": "Center",
+        "readmore": "https://www.allsides.com/news-source/wall-street-journal-media-bias"
+    }
 }

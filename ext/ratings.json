@@ -24,7 +24,7 @@
         "readmore": "https://www.allsides.com/news-source/cnn"
     },
     "csmonitor.com": {
-        "bias": "Center",
+        "rating": "Center",
         "description": " The AllSides community overwhelmingly rated CSM to be a center source. According to its about page, it looks to injure no man, but bless all manking. Despite the word Christian being in the title, this source is well-regarded for its ability to cover multiple angles of every story.",
         "name": "Christian Science Monitor",
         "readmore": "https://www.allsides.com/news-source/christian-science-monitor"
@@ -66,7 +66,7 @@
         "readmore": "https://www.allsides.com/news-source/nbc-news-media-bias"
     },
     "npr.org": {
-        "bias": "Center",
+        "rating": "Center",
         "description": "Avoids hot-button issues (gun rights, abortion, etc) in favor of news that is important to both 'sides (immigration, healthcare, etc). It avoids emotionally-charged and polarizing language and ensures that its Editorial/Opinion content (which Leans Left) is not easily-confused with its objective news coverage.",
         "name": "NPR",
         "readmore": "https://www.allsides.com/news-source/NPR-media-bias"
@@ -96,7 +96,7 @@
         "readmore": "https://www.allsides.com/news-source/reuters"
     },
     "usatoday.com": {
-        "bias": "Center",
+        "rating": "Center",
         "description": "A 2013 Blind Bias Survey (the best rating method available) rated USA Today as Center. Past critics have accused USA Today of a Lean Left bias, particularly in its editorial pieces, but AllSides has consistently rated the organizaton as having a Center bias.",
         "name": "USA Today",
         "readmore": "https://www.https://www.allsides.com/news-source/usa-today-media-bias"

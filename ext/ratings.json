@@ -23,6 +23,12 @@
         "rating": "Solid Right",
         "readmore": "https://www.allsides.com/news-source/breitbart"
     },
+    "cbn.com": {
+        "description": "CBN tends to offer news from a Conservative, Christian perspective. It was founded by televangilist Pat Robertson.",
+        "name": "CBN",
+        "rating": "Solid Right",
+        "readmore": "https://www.https://www.allsides.com/news-source/cbn"
+    },
     "cnn.com": {
         "description": "Though its cable TV partner is historically moderate, CNN Web News has been classified as lean left in recent years. Please see attatched link for more details. <br/><font size='1px'>(This is the rating of an independent party, not the opinion of the developer)</font>",
         "name": "CNN",
@@ -100,6 +106,24 @@
         "name": "Slate",
         "rating": "Solid Left",
         "readmore": "https://www.allsides.com/news-source/slate"
+    },
+    "spectator.org": {
+        "description": "Conservative news outlet which sometimes appears in tabloid form (1990s-2000s, 2013+)",
+        "name": "American Spectator",
+        "rating": "Solid Right",
+        "readmore": "https://www.https://www.allsides.com/news-source/american-spectator"
+    },
+    "theguardian.com": {
+        "description": "A British national newspaper founded tin 1821 to promote liberal interests. A feature editor for the paper was quoted as saying 'it is no secret we are a centre-left newspaper.' It is the fifth most widely-read online newspaper in the world.",
+        "name": "The Guardian",
+        "rating": "Lean Left",
+        "readmore": "https://www.https://www.allsides.com/news-source/guardian"
+    },
+    "theintercept.com": {
+        "description": "Devoted to \"fearless, adversarial journalism\" it refuses to mandate 'balance' when it believes one side is clearly without merit. The Intercept often takes a hard left stance on war and foreign policy.",
+        "name": "The Intercept",
+        "rating": "Solid Left",
+        "readmore": "https://www.https://www.allsides.com/news-source/intercept"
     },
     "uk.reuters.com": {
         "description": "UK branch of Reuters. Reuters provides much of the firsthand news reporting major networks rely on when they add their \"spin\" Reuters is more fact, less opinion.",

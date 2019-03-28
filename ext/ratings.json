@@ -71,6 +71,12 @@
         "rating": "Solid Left",
         "readmore": "https://www.allsides.com/news-source/huffpost-media-bias"
     },
+    "journalism.org": {
+        "description": "A branch of Pew Research Center (C)",
+        "name": "Pew Research Center",
+        "rating": "Center",
+        "readmore": "https://www.https://www.allsides.com/news-source/pew-research"
+    },
     "msnbc.com": {
         "description": "In 2013, <em>MSNBC</em> released its revamped official website under the tagline, 'What Progressives Have Been Waiting For' (Source: Washington Times via AllSides)",
         "name": "MSBNC",

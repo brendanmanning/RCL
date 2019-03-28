@@ -5,6 +5,12 @@
         "rating": "Center",
         "readmore": "https://www.allsides.com/news-source/ap"
     },
+    "bbc.com": {
+        "description": "The British Broadcasting Corporation is a public service broadcaster in the UK. It is the largest broadcasting organization in the world and is widely regarded as a centrist source.",
+        "name": "BBC",
+        "rating": "Center",
+        "readmore": "https://www.https://www.allsides.com/news-source/bbc-news-media-bias"
+    },
     "bloomberg.org": {
         "bias": "Center",
         "description": "The news outlet of Bloomberg L.P, which makes financial software for Wall Street. Primarily focusing on business topics, Bloomberg has defined itself as the Chronicle of Capitalism. Some considerit a Lean Right source, but most objective surveys (AllSides included) have affirmed it to be centrist.",
@@ -24,9 +30,9 @@
         "readmore": "https://www.allsides.com/news-source/cnn"
     },
     "csmonitor.com": {
-        "rating": "Center",
         "description": " The AllSides community overwhelmingly rated CSM to be a center source. According to its about page, it looks to injure no man, but bless all manking. Despite the word Christian being in the title, this source is well-regarded for its ability to cover multiple angles of every story.",
         "name": "Christian Science Monitor",
+        "rating": "Center",
         "readmore": "https://www.allsides.com/news-source/christian-science-monitor"
     },
     "dailymail.co.uk": {
@@ -66,10 +72,16 @@
         "readmore": "https://www.allsides.com/news-source/nbc-news-media-bias"
     },
     "npr.org": {
-        "rating": "Center",
         "description": "Avoids hot-button issues (gun rights, abortion, etc) in favor of news that is important to both 'sides (immigration, healthcare, etc). It avoids emotionally-charged and polarizing language and ensures that its Editorial/Opinion content (which Leans Left) is not easily-confused with its objective news coverage.",
         "name": "NPR",
+        "rating": "Center",
         "readmore": "https://www.allsides.com/news-source/NPR-media-bias"
+    },
+    "politico.com": {
+        "description": "Previously rated as Center, this news outlet was recategorized by AllSides in February 2018.",
+        "name": "Politico",
+        "rating": "Lean Left",
+        "readmore": "https://www.allsides.com/news-source/Politico-media-bias"
     },
     "reason.com": {
         "description": "Covers the libertarian perspective (socially liberal, fiscally conservative). AllSides writes favorably about Reason's refreshing coverage in contrast to typical left or right leaning news",
@@ -96,16 +108,34 @@
         "readmore": "https://www.allsides.com/news-source/reuters"
     },
     "usatoday.com": {
-        "rating": "Center",
         "description": "A 2013 Blind Bias Survey (the best rating method available) rated USA Today as Center. Past critics have accused USA Today of a Lean Left bias, particularly in its editorial pieces, but AllSides has consistently rated the organizaton as having a Center bias.",
         "name": "USA Today",
+        "rating": "Center",
         "readmore": "https://www.https://www.allsides.com/news-source/usa-today-media-bias"
     },
-    "washingtonpost": {
+    "vice.com": {
+        "description": "No description is available at this time",
+        "name": "Vice",
+        "rating": "Solid Left",
+        "readmore": "https://www.allsides.com/news-source/Vice-media-bias"
+    },
+    "washingtonexaminer.com": {
+        "description": "Previously rated as Solid Right, this outlet has been reclassified because (1) it tends to avoid sensationalist headlines and d (2) does showcase Left-Leaning points of view (even allowing them to be the top headline)",
+        "name": "Washington Examiner",
+        "rating": "Lean Right",
+        "readmore": "https://www.https://www.allsides.com/news-source/washington-examiner"
+    },
+    "washingtonpost.com": {
         "description": "Washington Post has been accused of bias towards both sides, but has been found somewhat left-leaning by AllSides.<br/><strong>For articles involving Amazon</strong>: Jeff Bezos, CEO of Amazon <a href='https://en.wikipedia.org/wiki/Jeff_Bezos#The_Washington_Post'>bought the paper for $250 million</a> through his LLC Hash Holdings",
         "name": "Washington Post",
         "rating": "Lean Left",
         "readmore": "https://www.allsides.com/news-source/washington-post-media-bias"
+    },
+    "washingtontimes.com": {
+        "description": "Originally founded to conservatively fight communism, this newspaper defines itself as conservative and primarily targets moderate/ conservatives (center-right)",
+        "name": "Washington Times",
+        "rating": "Lean Right",
+        "readmore": "https://www.https://www.allsides.com/news-source/washington-times-bias"
     },
     "wsj.com": {
         "description": "While its opinion page and editorial trend Right, the general news source is Centrist. Please click on the 'C' badge for more information from AllSides.",

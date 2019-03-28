@@ -97,7 +97,7 @@ if __name__ == "__main__":
 
             ratings[url] = {}
             ratings[url]['name'] = name
-            ratings[url]['bias'] = bias
+            ratings[url]['rating'] = bias
             ratings[url]['description'] = description
             ratings[url]['readmore'] = readmore
 

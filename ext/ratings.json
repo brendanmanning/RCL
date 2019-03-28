@@ -125,6 +125,12 @@
         "rating": "Solid Left",
         "readmore": "https://www.https://www.allsides.com/news-source/intercept"
     },
+    "townhall.com": {
+        "description": "A majority of AllSides voters believed this rating should be 'Lean Right' It describes itself as 'the leading conservative and political opinion websitee.'",
+        "name": "Townhall",
+        "rating": "Solid Right",
+        "readmore": "https://www.https://www.allsides.com/news-source/townhall-bias"
+    },
     "uk.reuters.com": {
         "description": "UK branch of Reuters. Reuters provides much of the firsthand news reporting major networks rely on when they add their \"spin\" Reuters is more fact, less opinion.",
         "name": "Reuters (UK)",
@@ -142,6 +148,12 @@
         "name": "Vice",
         "rating": "Solid Left",
         "readmore": "https://www.allsides.com/news-source/Vice-media-bias"
+    },
+    "vox.com": {
+        "description": "The AllSides team found that Vox consistently writes favorably about Left-leaning policies and never includes a Right-leaning perspective.",
+        "name": "Vox",
+        "rating": "Solid Left",
+        "readmore": "https://www.https://www.allsides.com/news-source/vox-news-media-bias"
     },
     "washingtonexaminer.com": {
         "description": "Previously rated as Solid Right, this outlet has been reclassified because (1) it tends to avoid sensationalist headlines and d (2) does showcase Left-Leaning points of view (even allowing them to be the top headline)",

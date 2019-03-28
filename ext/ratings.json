@@ -29,6 +29,12 @@
         "rating": "Solid Right",
         "readmore": "https://www.https://www.allsides.com/news-source/cbn"
     },
+    "cbsnews.com": {
+        "description": "Critics say CBS News has a liberal bias. In the 2008 election, it donated ~1M to Democratic candidates and only ~150K to Republicans. It is the second largest broadcaster in the world (behind BBC).",
+        "name": "CBS News",
+        "rating": "Lean Left",
+        "readmore": "https://www.https://www.allsides.com/news-source/cbs-news-media-bias"
+    },
     "cnn.com": {
         "description": "Though its cable TV partner is historically moderate, CNN Web News has been classified as lean left in recent years. Please see attatched link for more details. <br/><font size='1px'>(This is the rating of an independent party, not the opinion of the developer)</font>",
         "name": "CNN",
@@ -82,6 +88,12 @@
         "name": "NPR",
         "rating": "Center",
         "readmore": "https://www.allsides.com/news-source/NPR-media-bias"
+    },
+    "nypost.com": {
+        "description": "The Post has come under considerable criticism for sensationalism, advocacy, and conservative bias. A survey conducted by Pace University in 2004, found The Post to be the only organization recieving more votes for 'not credible' than 'credible.' It is the 13th-oldest newspaper in the United States.",
+        "name": "New York Post",
+        "rating": "Solid Right",
+        "readmore": "https://www.https://www.allsides.com/news-source/new-york-post"
     },
     "politico.com": {
         "description": "Previously rated as Center, this news outlet was recategorized by AllSides in February 2018.",

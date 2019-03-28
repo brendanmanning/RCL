@@ -95,6 +95,12 @@
         "rating": "Solid Right",
         "readmore": "https://www.https://www.allsides.com/news-source/new-york-post"
     },
+    "pewresearch.org": {
+        "description": "American think tank organization  primarily aimed at surveying American opinions on topics of public interst. Its information is widely regarded as factual and non-partisan.",
+        "name": "Pew Research Center",
+        "rating": "Center",
+        "readmore": "https://www.https://www.allsides.com/news-source/pew-research"
+    },
     "politico.com": {
         "description": "Previously rated as Center, this news outlet was recategorized by AllSides in February 2018.",
         "name": "Politico",

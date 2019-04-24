@@ -42,9 +42,9 @@
         "readmore": "https://www.https://www.allsides.com/news-source/bloomberg-media-bias"
     },
     "bloomberg.org": {
-        "bias": "Center",
+        "rating": "Center",
         "description": "The news outlet of Bloomberg L.P, which makes financial software for Wall Street. Primarily focusing on business topics, Bloomberg has defined itself as the Chronicle of Capitalism. Some considerit a Lean Right source, but most objective surveys (AllSides included) have affirmed it to be centrist.",
-        "name": "Bloomberg",
+        "name": "Bloomberg (.org)",
         "readmore": "https://www.allsides.com/news-source/Bloomberg-media-bias"
     },
     "breitbart.com": {

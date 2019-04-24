@@ -191,6 +191,12 @@
         "rating": "Lean Left",
         "readmore": "https://www.https://mediabiasfactcheck.com/talking-points-memo/"
     },
+    "telegraph.co.uk": {
+        "description": "No description is available at this time",
+        "name": "The Telegraph",
+        "rating": "Lean Right",
+        "readmore": "https://www.https://www.allsides.com/news-source/telegraph-uk"
+    },
     "theatlantic.com": {
         "description": "No description is available at this time",
         "name": "The Atlantic",

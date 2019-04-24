@@ -5,11 +5,29 @@
         "rating": "Center",
         "readmore": "https://www.allsides.com/news-source/ap"
     },
+    "axios.com": {
+        "description": "No description is available at this time",
+        "name": "Axios",
+        "rating": "Center",
+        "readmore": "https://www.https://www.allsides.com/news-source/axios"
+    },
+    "baltimoresun.com": {
+        "description": "Used https://mediabiasfactcheck.com/baltimore-sun/",
+        "name": "Baltimore Sun",
+        "rating": "Lean Left",
+        "readmore": "https://www.https://mediabiasfactcheck.com/baltimore-sun/"
+    },
     "bbc.com": {
         "description": "The British Broadcasting Corporation is a public service broadcaster in the UK. It is the largest broadcasting organization in the world and is widely regarded as a centrist source.",
         "name": "BBC",
         "rating": "Center",
         "readmore": "https://www.https://www.allsides.com/news-source/bbc-news-media-bias"
+    },
+    "bloomberg.com": {
+        "description": "No description is available at this time",
+        "name": "Bloomberg",
+        "rating": "Center",
+        "readmore": "https://www.https://www.allsides.com/news-source/bloomberg-media-bias"
     },
     "bloomberg.org": {
         "bias": "Center",
@@ -23,8 +41,14 @@
         "rating": "Solid Right",
         "readmore": "https://www.allsides.com/news-source/breitbart"
     },
+    "businessinsider.com": {
+        "description": "No description is available at this time",
+        "name": "Business Insider",
+        "rating": "Center",
+        "readmore": "https://www.https://www.allsides.com/news-source/business-insider"
+    },
     "cbn.com": {
-        "description": "CBN tends to offer news from a Conservative, Christian perspective. It was founded by televangilist Pat Robertson.",
+        "description": "No description is available at this time",
         "name": "CBN",
         "rating": "Solid Right",
         "readmore": "https://www.https://www.allsides.com/news-source/cbn"
@@ -58,6 +82,12 @@
         "name": "Drudge Report",
         "rating": "Lean Right",
         "readmore": "https://www.allsides.com/news-source/drudge-report"
+    },
+    "forbes.com": {
+        "description": "Primary focuses on economic and business topics",
+        "name": "Forbes",
+        "rating": "Center",
+        "readmore": "https://www.https://www.allsides.com/news-source/forbes"
     },
     "foxnews.com": {
         "description": "Widely described as favoring the Republican Party, Pew Research Center found that 47% of conservatives turn to Fox as their primary news source. Looking for the quintessential conservative viewpoint to round out your understanding (or already a conservative?) Fox News is your best bet for both!",
@@ -101,6 +131,12 @@
         "rating": "Solid Right",
         "readmore": "https://www.https://www.allsides.com/news-source/new-york-post"
     },
+    "nytimes.com": {
+        "description": "No description is available at this time",
+        "name": "New York Times",
+        "rating": "Lean Left",
+        "readmore": "https://www.https://www.allsides.com/news-source/new-york-times"
+    },
     "pewresearch.org": {
         "description": "American think tank organization  primarily aimed at surveying American opinions on topics of public interst. Its information is widely regarded as factual and non-partisan.",
         "name": "Pew Research Center",
@@ -108,10 +144,16 @@
         "readmore": "https://www.https://www.allsides.com/news-source/pew-research"
     },
     "politico.com": {
-        "description": "Previously rated as Center, this news outlet was recategorized by AllSides in February 2018.",
-        "name": "Politico",
+        "description": "No description is available at this time",
+        "name": "POLITICO",
         "rating": "Lean Left",
-        "readmore": "https://www.allsides.com/news-source/Politico-media-bias"
+        "readmore": "https://www.https://www.allsides.com/news-source/politico-media-bias"
+    },
+    "realclearpolitics.com": {
+        "description": "No description is available at this time",
+        "name": "Real Clear Politics",
+        "rating": "Center",
+        "readmore": "https://www.https://www.allsides.com/news-source/real-clear-politics"
     },
     "reason.com": {
         "description": "Covers the libertarian perspective (socially liberal, fiscally conservative). AllSides writes favorably about Reason's refreshing coverage in contrast to typical left or right leaning news",
@@ -125,6 +167,12 @@
         "rating": "Center",
         "readmore": "https://www.allsides.com/news-source/reuters"
     },
+    "salon.com": {
+        "description": "No description is available at this time",
+        "name": "Salon",
+        "rating": "Solid Left",
+        "readmore": "https://www.https://www.allsides.com/news-source/salon"
+    },
     "slate.com": {
         "description": "AllSides found that <em>Slate</em> never includes a Right-leaning perspective on its website[.] Opinion pieces on <em>Slate</em> are clearly labeled news, making it unclear [] what is fact and what is opinion. In its new reporting, <em>Slate</em> often uses subjective and emotional words.<br>(Directly quoted from AllSides; Please click the 'L' icon for more information)",
         "name": "Slate",
@@ -137,17 +185,53 @@
         "rating": "Solid Right",
         "readmore": "https://www.https://www.allsides.com/news-source/american-spectator"
     },
+    "talkingpointsmemo.com": {
+        "description": "No description is available at this time",
+        "name": "Talking Points Memo",
+        "rating": "Lean Left",
+        "readmore": "https://www.https://mediabiasfactcheck.com/talking-points-memo/"
+    },
+    "theatlantic.com": {
+        "description": "No description is available at this time",
+        "name": "The Atlantic",
+        "rating": "Lean Left",
+        "readmore": "https://www.https://www.allsides.com/news-source/atlantic"
+    },
+    "thedailybeast.com": {
+        "description": "No description is available at this time",
+        "name": "Daily Beast",
+        "rating": "Solid Left",
+        "readmore": "https://www.https://www.allsides.com/news-source/daily-beast-media-bias"
+    },
+    "theepochtimes.com": {
+        "description": "No description is available at this time",
+        "name": "The Epoch Times",
+        "rating": "Lean Right",
+        "readmore": "https://www.https://www.allsides.com/news-source/epoch-times-media-bias"
+    },
     "theguardian.com": {
         "description": "A British national newspaper founded tin 1821 to promote liberal interests. A feature editor for the paper was quoted as saying 'it is no secret we are a centre-left newspaper.' It is the fifth most widely-read online newspaper in the world.",
         "name": "The Guardian",
         "rating": "Lean Left",
         "readmore": "https://www.https://www.allsides.com/news-source/guardian"
     },
+    "thehill.com": {
+        "description": "No description is available at this time",
+        "name": "The Hill",
+        "rating": "Center",
+        "readmore": "https://www.https://www.allsides.com/news-source/hill-media-bias"
+    },
     "theintercept.com": {
         "description": "Devoted to \"fearless, adversarial journalism\" it refuses to mandate 'balance' when it believes one side is clearly without merit. The Intercept often takes a hard left stance on war and foreign policy.",
         "name": "The Intercept",
         "rating": "Solid Left",
         "readmore": "https://www.https://www.allsides.com/news-source/intercept"
+    },
+    "time.com": {
+        "description": "No description is available at this time",
+        "name": "TIME",
+        "rating": "Lean Left",
+        "readmore": "https://www.https://www.allsides.com/news-source/time-magazine-news-media-bias"
     },
     "townhall.com": {
         "description": "A majority of AllSides voters believed this rating should be 'Lean Right' It describes itself as 'the leading conservative and political opinion websitee.'",

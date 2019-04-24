@@ -1,4 +1,16 @@
 {
+    "abcnews.go.com": {
+        "description": "No description is available at this time",
+        "name": "ABC News",
+        "rating": "Lean Left",
+        "readmore": "https://www.https://www.allsides.com/news-source/abc-news-media-bias"
+    },
+    "aljazeera.com": {
+        "description": "No description is available at this time",
+        "name": "Al Jazeera",
+        "rating": "Center",
+        "readmore": "https://www.https://www.allsides.com/news-source/al-jazeera-america"
+    },
     "ap.org": {
         "description": "Associated Press provides much of the firsthand news reporting major networks rely on when they add their \"spin.\" AP is more fact, less opinion.",
         "name": "Associated Press",
@@ -179,6 +191,12 @@
         "rating": "Center",
         "readmore": "https://www.allsides.com/news-source/reuters"
     },
+    "rollingstone.com": {
+        "description": "No description is available at this time",
+        "name": "Rolling Stone",
+        "rating": "Solid Left",
+        "readmore": "https://www.https://www.allsides.com/news-source/rolling-stone"
+    },
     "salon.com": {
         "description": "No description is available at this time",
         "name": "Salon",
@@ -244,6 +262,12 @@
         "name": "The Intercept",
         "rating": "Solid Left",
         "readmore": "https://www.https://www.allsides.com/news-source/intercept"
+    },
+    "theroot.com": {
+        "description": "No description is available at this time",
+        "name": "The Root",
+        "rating": "Lean Left",
+        "readmore": "https://www.https://www.allsides.com/news-source/root"
     },
     "time.com": {
         "description": "No description is available at this time",
